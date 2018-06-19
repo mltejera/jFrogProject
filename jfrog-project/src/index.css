@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.centerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newQuestion {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.questionCard {
+  width: 320px;
+  padding: 12px 12px 12px 12px;
+  
+}
+
+.bottomMargin {
+  margin: 0px 0px 16px 0px;
+}
+
+.buttonProgress {
+  position: 'absolute';
+  top: '50%';
+  left: '50%';
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.fileInfo {
+  width: 420px;
+  display: flex;
+  justify-content: space-evenly; 
+  padding: 12px 12px 12px 12px;
+  align-items: center;
+}
+
+.errorPaper {
+  padding: 16px 16px 16px 16px;
+}
